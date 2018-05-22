@@ -1,10 +1,7 @@
 
 + [简介](/src/intro.md)
 + [性能](/src/performance.md)
-+ 术语
-  + Gun 术语
-  + 假设失忆症机器(HAM)
-  + CAP 关联定理
++ [术语](/src/term.md)
 + 共识
   + CAP 定理权衡
   + 假设失忆症机器
