@@ -1,0 +1,24 @@
+# Welcome to Jekyll!
+
+# Site settings
+title: Your Website
+email: Your Email
+description: >-
+  Description here
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+plugins:
+  - jekyll-seo-tag
+
+# posts
+format: "%b %-d, %Y"
+collections_dir: 
+  collections
+
+collections:
+  categories:
+    output: true
