@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-clearloop"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["clearloop"]
   spec.email         = ["udtrokia@gmail.com"]
 
   spec.summary       = "clearloop style"
-  spec.homepage      = "https://clearloop.github.io/jekyll-theme"
+  spec.homepage      = "https://clearloop.github.io/jekyll-theme-clearloop"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }

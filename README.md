@@ -31,6 +31,48 @@ Or install it yourself as:
 
 ## Usage
 
+__Gemfile__:
+```ruby
+source "https://rubygems.org"
+
+#Happy Clearlooping!
+gem "jekyll", "~> 3.8"
+
+#Plugins
+group :jekyll_plugins do
+  gem "jekyll-seo-tag"
+  gem "rouge", "~> 3.3.0"
+end
+```
+
+__\_config.yml__:
+```ruby
+# Welcome to Jekyll!
+
+# Site settings
+title: Your Website
+email: Your Email
+description: >-
+  Description here
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+nsass:
+  sass_dir: _sass
+plugins:
+  - jekyll-seo-tag
+
+# posts
+format: "%b %-d, %Y"
+collections_dir: 
+  collections
+
+pcollections:
+  categories:
+    output: true
+```
+
 Basic Category page at `collections/_categories` ;)
 
 ## Contributing
