@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-clearloop"
-  spec.version       = "0.1.5"
+  spec.version       = "0.1.6"
   spec.authors       = ["clearloop"]
   spec.email         = ["udtrokia@gmail.com"]
 
